@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Get news (demo mode)",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {"demo": true},
+      "bodyMatcher": "partial"
+    }
+  ]
+}
